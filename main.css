@@ -1,0 +1,41 @@
+.mainheader{
+    display: inline;
+}
+.animbg{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#baslik1{
+    font-size: 70px;
+    font-family: fantasy;
+    color: #D82148;   
+}
+
+#buton1 button{
+    float: right;
+    margin-top: 20px;
+    font-size: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: white;
+    color: #151D3B;
+    border-radius: 15px;
+}
+
+#buton1 button:hover{
+    transition-duration: 0.5s;
+    background-color: #D82148;
+}
