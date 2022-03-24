@@ -77,3 +77,39 @@
     transition-duration: 0.5s;
     background-color: #151D3B;
 }
+.nav{
+    
+}
+
+.bar{
+    
+    background-size: 30px;
+    border-radius: 10px;
+    background-color: #D82148;
+    height: 25px;
+}
+.barbutton{
+    background-color: #98DDCA;
+    margin-left: 160px;
+    border-radius: 20px;
+    margin-top: 2px;
+}
+.searchbarout{
+    width: 100%;
+    height: 60px;
+    background-color: #151D3B;
+    border-radius: 20px;
+    display: inline-block;
+}
+.searchbarin{
+    display: inline-block;
+    background-color: gray;
+    width: 80%;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+.searchicon{
+    
+}
