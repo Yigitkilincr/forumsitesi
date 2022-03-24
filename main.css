@@ -103,7 +103,7 @@
 }
 .searchbarin{
     display: inline-block;
-    background-color: gray;
+    background-color: goldenrod;
     width: 80%;
     height: 30px;
     margin-top: 15px;
@@ -111,5 +111,15 @@
     border-radius: 10px;
 }
 .searchicon{
-    
+    width: 30px;
+    height: 30px;
+    margin-top: 4px;
+    position: absolute;
+}
+.inputbar{
+    margin-top: 4px;
+    margin-left: 4px;
+    width: 1000px;
+    background-color: gray;
+    border-radius: 10px;
 }
